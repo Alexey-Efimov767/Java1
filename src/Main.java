@@ -6,5 +6,10 @@ public class Main {
         dog1.voice();
         int x =dog1.eatenFood(1,2);
         System.out.println(x);
+
+        Dog dog2 = new Dog(12, "Pup");
+        dog2.voice();
+
+        Dog god3 = new Dog(5, "Bobby");
     }
 }
